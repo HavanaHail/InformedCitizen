@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.searchButton {
+#searchButton {
   color: black;
   border: 2px solid #46A649; /* Green */
   border: none;
@@ -16,7 +16,7 @@
   cursor: pointer;
 }
 
-.searchButton:hover {
+#searchButton:hover {
   background-color: #4CAF50;
   color: white;
 }
