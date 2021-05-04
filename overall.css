@@ -5,6 +5,7 @@
 
 
 .input{
-width:10000px; height:80px;
-display:inline-block;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
 }
