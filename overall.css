@@ -1,16 +1,19 @@
 h1 {
-  width:10000px; height:80px;
+  width:1000px; height:80px;
   text-align: center;
    font-family: "Varela Round";
    font-size: 24px;
    font-style: normal;
    font-variant: normal;
    font-weight: 700;
-   line-height: 26.4px; 
+   line-height: 26.4px;
+
 }
+
 
 p {
   font-family: cursive;
+  word-wrap: break-word;
 }
 .overall{
 
