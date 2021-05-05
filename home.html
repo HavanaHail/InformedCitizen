@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Varela+Round" />
   <link rel="stylesheet" href="overall.css"/>
 </head>
 <body>
 
 <div class="topOfPage">
+<button id="homeButton" onclick="https://havanahail.github.io/InformedCitizen/home"><</button>
 <h1>Informed Citizen</h1>
 </div>
 
@@ -14,11 +14,8 @@
 from violence by others, organizations, and the government itself. Living in a
 democratic society all citizens should be aware of how they are impacted by these
 important laws. </p>
-<br>
 <p>   </p>
-<br>
-<p>
-Informed Citizen presents accessible and filtered content on current laws going on in your state.
+<p>Informed Citizen presents accessible and filtered content on current laws going on in your state.
 Make sure to fill in your state and possible interests.
 </p>
 
@@ -102,17 +99,22 @@ Make sure to fill in your state and possible interests.
 <button id="searchButton" onclick="https://havanahail.github.io/InformedCitizen/results">Search</button>
 </div>
 
-<script >
+<script>
     document.getElementById("searchButton").onclick = function () {
         location.href = "https://havanahail.github.io/InformedCitizen/results";
     };
     document.getElementById("homeButton").onclick = function () {
         location.href = "https://havanahail.github.io/InformedCitizen/home";
     };
+    $('.tag.example .ui.dropdown')
+      .dropdown({
+        allowAdditions: true
+      })
 </script>
 
 </div>
 
 <script src="overall.js"></script>
+
 </body>
 </html>
