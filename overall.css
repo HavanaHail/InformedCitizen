@@ -2,15 +2,18 @@
 
 body {
   background-color: #fffbed
-  background-color: #f44336;
 }
 
 h1 {
   	font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+
 }
 p {
   font-family: cursive;
   word-wrap: break-word;
+}
+.topOfPage {
+  background-color:#228B22
 }
 .overall{
 
