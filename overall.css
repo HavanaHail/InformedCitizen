@@ -6,8 +6,15 @@ body {
 
 h1 {
   	font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
-
+    top: 50%; /* IMPORTANT */
+    left: 50%; /* IMPORTANT */
+    position: absolute;
+    width: 750px;
+    height: 417px;
+    margin-top: -208.5px; /* HALF OF THE HEIGHT */
+    margin-left: -375px; /* HALF OF THE WIDTH */
 }
+
 p {
   font-family: cursive;
   word-wrap: break-word;
