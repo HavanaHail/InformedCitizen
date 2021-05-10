@@ -16,7 +16,7 @@ p {
 }
 .topOfPage {
   display:inline-block;
-  background-color:#228B22
+    padding: 10px;
 }
 .overall{
 
@@ -25,17 +25,17 @@ p {
 .input{
   display: inline-block;
   font-size: 20px;
-  padding: 160px;
+  padding: 10px;
 }
 
 .states {
-  width:160px; height:80px;
+  width:10px; height:80px;
 }
 
 .topics {
-  width:160px; height:800px;
+  width:10px; height:80px;
 }
 
 .thebutton {
-  width:160px; height:800px;
+  width:10px; height:80px;
 }
