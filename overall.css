@@ -25,17 +25,17 @@ p {
 .input{
   display: inline-block;
   font-size: 20px;
-  padding: 200px;
+  padding: 160px;
 }
 
 .states {
-  width:100px; height:800px;
+  width:160px; height:80px;
 }
 
 .topics {
-  width:100px; height:800px;
+  width:160px; height:800px;
 }
 
 .thebutton {
-  width:100px; height:800px;
+  width:160px; height:800px;
 }
