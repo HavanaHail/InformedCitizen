@@ -41,7 +41,7 @@ p {
   width:30px; height:80px;
 }
 
-#square {
+.square {
   float: right;
   width: 100px;
   height: 100px;
