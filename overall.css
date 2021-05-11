@@ -13,6 +13,7 @@ h1 {
 p {
   font-family: cursive;
   word-wrap: break-word;
+  font-size: 12px;
 }
 .topOfPage {
   display:inline-block;
