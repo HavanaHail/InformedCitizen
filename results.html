@@ -1,18 +1,31 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="overall.css">
+  <link rel="stylesheet" href="overall.css"/>
+  <title> InformedCitizen </title>
 </head>
 <body>
 
-<h1>Informed Citizen</h1>
+<div class="topOfPage">
+<button id="homeButton" onclick="https://havanahail.github.io/InformedCitizen/home"><</button>
+<h1> Informed Citizen </h1>
+</div>
 
-<p> Slect your state and interests and search current laws in your state. </p>
 
-<div class="input">
-<div class="states  input">
+<p> Laws preserve our general protection and secure our freedom as individuals
+from violence by others, organizations, and the government itself. Living in a
+democratic society all citizens should be aware of how they are impacted by these
+important laws. </p>
+<p>   </p>
+<p>Informed Citizen presents accessible and filtered content on current laws going on in your state.
+Make sure to fill in your state and possible interests.
+</p>
+<p>Instructions: Make sure to select a state. It is optional to select topics. Hold down the Ctrl (windows) / Command (Mac) button to select multiple options. </p>
+<div>
+<form name="input" class="input" action="https://havanahail.github.io/InformedCitizen/results">
+<label for="state">State:</label>
   <select name="state" id="state" >
+    <option value="State">State</option>
   	<option value="AL">AL</option>
   	<option value="AK">AK</option>
   	<option value="AR">AR</option>
@@ -67,9 +80,10 @@
   </select>
 </div>
 
-<div class="interests input">
-  <select name="intrests (optional)" multiple="" class="ui fluid dropdown">
-  <option value="">Interests</option>
+<div class="topics input">
+<label for="Topics (optional)">Topics (optional):</label>
+<select id="cars" name="Topics (optional)" class="ui fluid dropdown" size="12" multiple>
+<option value="No Topic">No Topic</option>
 <option value="crime">Crime and Law Enforcment</option>
 <option value="economics">Economics</option>
 <option value="education">Education</option>
@@ -86,18 +100,25 @@
 </select>
 </div>
 
-<div class="thebutton" input>
-<button id="searchButton" onclick="https://havanahail.github.io/InformedCitizen/results">Search</button>
+<div class="thebutton input">
+   <input type="submit" value="Search">
 </div>
+</form>
 
-<script type="text/javascript">
+<script>
     document.getElementById("searchButton").onclick = function () {
         location.href = "https://havanahail.github.io/InformedCitizen/results";
     };
+    document.getElementById("homeButton").onclick = function () {
+        location.href = "https://havanahail.github.io/InformedCitizen/home";
+    };
+
+
 </script>
 
-</div>
+
 
 <script src="overall.js"></script>
 
 </body>
+</html>
