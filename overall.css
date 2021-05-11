@@ -43,7 +43,6 @@ p {
 
 .square {
   float: right;
-  width: 100px;
-  height: 100px;
-  background: green;
+  padding: 50px;
+
 }
