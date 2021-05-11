@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="overall.css"/>
-  <title> InformedCitizen </title>
+  <title> InformedCitizen</title>
 </head>
 <body>
 
@@ -25,7 +25,6 @@ Make sure to fill in your state and possible interests.
 <form name="input" class="input" action="https://havanahail.github.io/InformedCitizen/results">
 <label for="state">State:</label>
   <select name="state" id="state" >
-    <option value="State">State</option>
   	<option value="AL">AL</option>
   	<option value="AK">AK</option>
   	<option value="AR">AR</option>
@@ -105,6 +104,11 @@ Make sure to fill in your state and possible interests.
 </div>
 </form>
 
+<div id=square class=square1> </div>
+<div id=square class=square2> </div>
+<div id=square class=square3> </div>
+<div id=square class=square4> </div>
+
 <script>
     document.getElementById("searchButton").onclick = function () {
         location.href = "https://havanahail.github.io/InformedCitizen/results";
@@ -112,10 +116,7 @@ Make sure to fill in your state and possible interests.
     document.getElementById("homeButton").onclick = function () {
         location.href = "https://havanahail.github.io/InformedCitizen/home";
     };
-
-
 </script>
-
 
 
 <script src="overall.js"></script>
