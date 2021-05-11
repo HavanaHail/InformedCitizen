@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
   <link rel="stylesheet" href="overall.css"/>
+  <title>
 </head>
 <body>
 
@@ -21,8 +22,8 @@ Make sure to fill in your state and possible interests.
 </p>
 
 <div>
-<div class="states input">
-State:
+<form name="input" class="input" action="https://havanahail.github.io/InformedCitizen/results">
+<label for="state">State:</label>
   <select name="state" id="state" >
     <option value="State">State</option>
   	<option value="AL">AL</option>
@@ -80,9 +81,8 @@ State:
 </div>
 
 <div class="topics input">
-  Topics (optional):
-  <xml>
-  <select name="Topics (optional)" multiple="" class="ui fluid dropdown">
+<label for="Topics (optional)">Topics (optional):</label>
+<select name="Topics (optional)" multiple="" class="ui fluid dropdown">
 <option value="No Topic">No Topic</option>
 <option value="crime">Crime and Law Enforcment</option>
 <option value="economics">Economics</option>
@@ -98,12 +98,12 @@ State:
 <option value="religion">Religion and Law</option>
 <option value="taxation">Taxation and Corporations</option>
 </select>
-</xml>
 </div>
 
 <div class="thebutton input">
-<button id="searchButton" onclick="https://havanahail.github.io/InformedCitizen/results">Search</button>
+   <input type="submit" value="Search">
 </div>
+</form>
 
 <script>
     document.getElementById("searchButton").onclick = function () {
