@@ -42,8 +42,10 @@ p {
 }
 
 .square {
-  float: right;
+  horizontal-align: left;
+  float: left;
   padding: 10px;
   width: 200px;
+  vertical-align: middle;
 
 }
